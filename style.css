@@ -2,7 +2,12 @@ body {
     background: white;
   }
 
-  h1 {
+h1 {
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: purple;
     }
+
+h2 { 
+    font-family: cursive;
+    color: greenyellow;
+}
