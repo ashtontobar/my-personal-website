@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -30,7 +30,7 @@
 
 #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb119 100%);
+    background-image: linear-gradient(to top, #4837ff 0%, #ff8177 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -41,6 +41,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    font-weight: 300;
 }
 
 .fa-gem {
