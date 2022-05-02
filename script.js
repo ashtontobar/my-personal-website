@@ -1,4 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "";
+const menu = document.querySelector('#mobile-menu');
+const menuLinks = document.querySelector('.navbar__menu');
 
-document.querySelector("body").appendChild(h2);
+menu.addEventListener('click', function() {
+    menu.classList.toggle('is-active');
+    menuLinks.classList.toggle('active');
+})
