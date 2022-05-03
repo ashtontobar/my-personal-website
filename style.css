@@ -30,7 +30,7 @@
 
 #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #4837ff 0%, #ff8177 100%);
+    background-image: linear-gradient(to top, #b721ff 0%, #ff8177 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -236,7 +236,7 @@
 .main__content h2 {
     font-size: 4rem;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(to top, #b721ff 0%, #4837ff 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text; 
