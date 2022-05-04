@@ -49,10 +49,6 @@
 }
 
 
-/* .fa-gem {
-    margin-right: 0.5rem;
-} */
-
 .navbar__menu {
     display: flex;
     align-items: center;
@@ -200,7 +196,7 @@
     }
 }
 
-/* Hero Section CSS */
+/* Welcome Section CSS */
 
 .main {
     background-color: #141414;
@@ -255,7 +251,7 @@
 
 .main__btn {
     justify-content: flex-start;
-    font-size: 1rem;
+    font-size: 1.1rem;
     background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
     padding: 14px 32px;
     border: none;
@@ -279,8 +275,7 @@
     width: 60%;
 }
 
-
-/* Hover affect */
+/* Button Hover Affect (entire html doc) */
 .main__btn a {
     position: relative;
     z-index: 2;
@@ -403,7 +398,6 @@
 
 .about__content p {
     margin-top: 1rem;
-    margin-left: 1.5rem;
     font-size: 2rem;
     font-weight: 200;
     color: #fff;
@@ -480,6 +474,127 @@
     }
 }
 
+/* Projects Page */
+.projects {
+    background-color: #141414;
+}
 
+.projects__container {
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 2px solid yellow; */
+    /* grid-template-columns: 1fr 1fr; */
+    align-items: center;
+    /* justify-self: center; */
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.projects__content h1 {
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    font-weight: 300;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.projects__content h2 {
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #4837ff 100%);
+    background-size: 100%;
+    font-weight: 200;
+    -webkit-background-clip: text;
+    -moz-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.projects__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 200;
+    color: #fff;
+}
+
+.projects__btn {
+    justify-content: flex-start;
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+
+#projects__img {
+    margin-top: 2%;
+    position:absolute;
+    right:0px;
+    top:350px;
+    align-self: flex-end;
+    /* border: 2px solid yellowgreen; */
+    height: 60%;
+    width: 60%;
+}
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    .projects__container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
+    }
+
+    .projects__content h1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+    }
+
+    .projects__content h2 {
+        font-size: 3rem;
+    }
+
+    .projects__content p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media  and (max-width: 480px) {
+    .projects__content h1 {
+        font-size: 2rem;
+        margin-top: 3rem;
+    }
+
+    .projects__content h2 {
+        font-size: 2rem;
+    }
+
+    .projects__content p {
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+}
 
 
